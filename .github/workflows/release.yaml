@@ -75,20 +75,20 @@ jobs:
       - name: Build Artifacts
         run: |
           mkdir -p release
-          argon build -y package.project.json -o release/library.rbxm
+          argon build -y package.project.json -o release/threadpool.rbxm
 
       - name: Upload to Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: library-${{ github.ref_name }}.rbxm
-          path: release/library.rbxm
+          name: threadpool-${{ github.ref_name }}.rbxm
+          path: release/threadpool.rbxm
 
       - name: Upload to Release
         uses: shogo82148/actions-upload-release-asset@v1
         with:
           upload_url: ${{ steps.create-release.outputs.upload_url }}
-          asset_name: library-${{ github.ref_name }}.rbxm
-          asset_path: release/library.rbxm
+          asset_name: threadpool-${{ github.ref_name }}.rbxm
+          asset_path: release/threadpool.rbxm
 
       - name: Publish on GitHub
         uses: eregon/publish-release@v1

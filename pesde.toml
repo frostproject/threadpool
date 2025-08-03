@@ -1,8 +1,8 @@
-name = "frostproject/roblox_library_template"
-description = "A template for Roblox developers to integrate advanced CLI tools like Argon or Rojo into GitHub workflows, streamlining build, test, and deploy processes for libraries and packages."
-version = "0.0.5"
+name = "frostproject/threadpool"
+description = "Pseudo code threadpool implementation for Luau to manage concurrent task execution."
+version = "0.0.1"
 authors = ["iceeburr <iceeburr@gmail.com> (https://iceeburr.dev)"]
-repository = "https://github.com/frostproject/roblox-library-template"
+repository = "https://github.com/frostproject/threadpool"
 license = "MIT"
 includes = ["README.md", "pesde.toml", "src/**/*.luau", "LICENSE"]
 

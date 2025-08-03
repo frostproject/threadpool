@@ -1,12 +1,11 @@
 {
-  "name": "roblox-library-template",
+  "name": "threadpool",
   "legacyScripts": false,
   "tree": {
     "$className": "DataModel",
     "ReplicatedStorage": {
       "$keepUnknowns": true,
-      "$path": "tests/client",
-      "roblox-library-template": {
+      "threadpool": {
         "$className": "Folder",
         "src": {
           "$path": "src"

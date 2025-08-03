@@ -2,12 +2,12 @@
 
 ## Request for changes/ Pull Requests
 
-You first need to create a fork of the [roblox-library-template](https://github.com/frostproject/roblox-library-template) repository to commit your changes to it. Methods to fork a repository can be found in the [GitHub Documentation](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
+You first need to create a fork of the [threadpool](https://github.com/frostproject/threadpool) repository to commit your changes to it. Methods to fork a repository can be found in the [GitHub Documentation](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
 
 Then add your fork as a local project:
 
 ```sh
-git clone https://github.com/frostproject/roblox-library-template
+git clone https://github.com/frostproject/threadpool
 ```
 
 > [Which remote URL should be used ?](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories)
@@ -15,14 +15,14 @@ git clone https://github.com/frostproject/roblox-library-template
 Then, go to your local folder
 
 ```sh
-cd roblox-library-template
+cd threadpool
 ```
 
 Add git remote controls :
 
 ```sh
-git remote add fork https://github.com/YOUR-USERNAME/roblox-library-template
-git remote add upstream https://github.com/frostproject/roblox-library-template
+git remote add fork https://github.com/YOUR-USERNAME/threadpool
+git remote add upstream https://github.com/frostproject/threadpool
 ```
 
 You can now verify that you have your two git remotes:
@@ -54,6 +54,6 @@ git pull
 git switch --create 1234-name-issue
 ```
 
-Commit your changes, then push the branch to your fork with `git push -u fork` and open a pull request on [the roblox-library-template repository](https://github.com/frostproject/roblox-library-template) following the template provided.
+Commit your changes, then push the branch to your fork with `git push -u fork` and open a pull request on [the threadpool repository](https://github.com/frostproject/threadpool) following the template provided.
 
-While not always enforced, it is recommended to follow the code style guide provided. As this is only a template repository, we can only suggest you what to use. The boilerplate code we have follows the official [Roblox Lua style guide](https://roblox.github.io/lua-style-guide/) and the [Lua Rocks style guide](https://github.com/luarocks/lua-style-guide). We use 3 tab spaces for indentation and a few other cool settings by default. All of that is up to your own preference and has no real meaning. You can configure them in the [stylua.toml](../stylua.toml)
+While not always enforced, it is recommended to follow the code style guide provided. The code we have follows the official [Roblox Lua style guide](https://roblox.github.io/lua-style-guide/) and the [Lua Rocks style guide](https://github.com/luarocks/lua-style-guide). We use 3 tab spaces for indentation and a few other cool settings by default. All of that is up to your own preference and has no real meaning. You can configure them in the [stylua.toml](../stylua.toml)

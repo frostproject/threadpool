@@ -1,6 +1,6 @@
 name = "frostproject/threadpool"
 description = "Pseudo code threadpool implementation for Luau to manage concurrent task execution."
-version = "0.0.1"
+version = "1.0.0"
 authors = ["iceeburr <iceeburr@gmail.com> (https://iceeburr.dev)"]
 repository = "https://github.com/frostproject/threadpool"
 license = "MIT"

@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Argon sync scripts from upstream template
+
+### Removed
+
+- Useless step in `.github/workflows/release.yaml`
+
 ## [1.0.0] - 2025-08-03
 
 ### Added

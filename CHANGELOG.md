@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.2] - 2025-08-04
+
 ### Added
 
 - roblox_server_packages to .gitignore from upstream template
@@ -32,6 +34,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Project was created
 
-[unreleased]: https://github.com/frostproject/threadpool/compare/1.0.1...HEAD
+[unreleased]: https://github.com/frostproject/threadpool/compare/1.0.2...HEAD
+[1.0.2]: https://github.com/frostproject/threadpool/compare/1.0.1...1.0.2
 [1.0.1]: https://github.com/frostproject/threadpool/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/frostproject/threadpool/compare/e5d9ba14250789573f8ecfd928cbc88a096b4967...1.0.0

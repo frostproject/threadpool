@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- roblox_server_packages to .gitignore from upstream template
+- lune alias in .luaurc
+
+### Fixed
+
+- Bumped argon sync scripts from upstream template
+
 ## [1.0.1] - 2025-08-04
 
 ### Added
